@@ -1,4 +1,62 @@
 .about-section {
     height: 100vh;
-    background-color: rgb(145, 145, 189);
+   
+}
+.about-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    /* padding: 20px 0; */
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 25.52px;
+    /* border: 1px solid red; */
+}
+.about-row:nth-child(2) {
+    flex-direction: row-reverse;
+}
+.about-row:nth-child(2) .img-container {
+background-image: url(../images/aboutUs/girl-hairs.png);
+max-width: 300px;
+}
+.about-row .img-container {
+  background-image: url(../images/aboutUs/hair-product.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 100%;
+  max-width: 300px;
+  height: 250px;
+}
+.about-row .about-text-container {
+    width: 50%;
+    max-width: 500px;
+    margin-top: 30px;   
+    /* padding: 0 10px; */
+}
+@media (max-width:980px) {
+    .about-row, .about-row:nth-child(2) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-row .about-text-container ,  .about-row:nth-child(2) .about-text-container {
+        width: 90%;
+        max-width: 100%;
+    }  
+    .about-row .img-container , .about-row:nth-child(2) .img-container {
+        max-width: none;
+        width: 90%;
+    }
+}
+@media (max-width:650px) {
+    .about-row:nth-child(2) {
+        display: none;
+    }
+    .about-row > * {
+        font-size: 18px;
+    }
 }

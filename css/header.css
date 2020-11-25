@@ -7,7 +7,6 @@ header {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0;
     z-index: 9999;
     transition: 0.8s ease-in-out;
 }
@@ -106,6 +105,9 @@ text-transform: uppercase;
       }
       header {
           height: 95px;
+      }
+      .sticky {
+          height: 70px;
       }
       header .header-container img {
           width: 70%;
