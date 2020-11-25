@@ -25,9 +25,19 @@ a {
     height: 60px;
     border-radius: 50%;
     border: 2px solid white;
+    cursor: pointer;
+}
+.oval-md-buttons {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    background: #E4D3BE;
 }
 .section-container {
     width: 90%;
+    height: 90%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -41,11 +51,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    padding-top: 30px;
+    text-transform: uppercase;
 }
 .section-heading h2 {
     border-bottom: 2px solid black;
-    width: 150px;
     text-align: center;
     padding: 10px 0;
 }

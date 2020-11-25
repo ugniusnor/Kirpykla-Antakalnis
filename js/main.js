@@ -8,3 +8,6 @@ scrollFromTop();
 
 import aboutSlider from "./components/aboutSection/aboutSlider.js"
 aboutSlider();
+
+import {carousel} from "./components/employees/carousel.js"
+carousel();

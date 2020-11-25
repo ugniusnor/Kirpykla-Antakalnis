@@ -1,0 +1,61 @@
+.services-section {
+    height: 100vh;
+    background-color: #E7E7E7;
+}
+.services-section .section-container {
+    justify-content: flex-start;
+}
+.service-box {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border: 2px #E7E7E7 solid;        -webkit-box-shadow: 13px 14px 0px 1px #E4D3BE;
+    -moz-box-shadow: 13px 14px 0px 1px #E4D3BE;
+    box-shadow: 13px 14px 0px 1px #E4D3BE;
+}
+.service-box .service-name {
+   display: flex;
+   align-items: center;
+    width: 80%;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 60px;
+}
+.service-button {
+    background-color: #E4D3BE;
+    text-align: center;
+   
+}
+.service-name span {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+    margin-left: 20px;
+    text-align: left;
+    height: 100%;
+}
+.service-button .fa-angle-down {
+    font-size: 30px;
+    line-height: 45px;
+  
+}
+@media (max-width:850px) {
+  .service-img {
+    width: 82%;
+    position: absolute;
+    top: -63px;
+    left: -121px;
+    z-index: -1;
+  }
+
+  .service-box {
+      width: 95%;
+  }
+ 
+}
+

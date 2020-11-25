@@ -1,0 +1,35 @@
+.employees {
+    height: 100vh;
+}
+
+.employees .glider-contain .avatar {
+    width: 90%;
+    
+}
+.glider figure {
+    width: 300px !important;
+    /* height: 400px!important; */
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    background: #434343;
+    color: white;
+    margin: 0 10px;
+}
+.glider figure .name {
+    margin: 20px 0;
+    width: 90%;
+    text-align: center;
+}
+.glider figure .text {
+    width: 90%;
+    text-align: center;
+}
+
+.glider figure .see-more {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}

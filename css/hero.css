@@ -50,7 +50,7 @@ margin-top: -60px;
 .hero-button .oval-xl-buttons {
     position: relative;
 }
-.fa-angle-down {
+.hero-button .oval-xl-buttons  .fa-angle-down {
     font-size: 60px;
     line-height: 60px;
     position: absolute;
@@ -68,7 +68,7 @@ margin-top: -60px;
         font-size: 120px;
     }
 }
- @media (max-width:780px) {
+ @media (max-width:800px) {
      .hero {
          justify-content: center;
          align-items: center;
